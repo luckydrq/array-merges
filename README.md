@@ -3,7 +3,7 @@ Merge arrays under strategy
 
 ## Example
 ```javascript
-var merge = require('array-merge');
+var merge = require('array-merges');
 var arr = merge([{a: 1}], [{a: 1}], {
   equal: function(prev, next) {
     return prev.a === next.a;
