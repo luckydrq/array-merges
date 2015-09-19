@@ -1,0 +1,24 @@
+{
+  "name": "array-merge",
+  "version": "0.1.0",
+  "keywords": [
+    "array",
+    "merge"
+  ],
+  "author": {
+    "name": "luckydrq",
+    "email": "drqzju@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:luckydrq/array-merge.git"
+  },
+  "devDependencies": {
+    "istanbul": "~0.3.20",
+    "mocha": "~2.3.2"
+  },
+  "scripts": {
+    "test": "mocha test/index.js",
+    "cov": "istanbul cover _mocha test/index.js"
+  }
+}
