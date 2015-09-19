@@ -24,9 +24,11 @@ function (prev, next) {
 ```
 
 - options.onMerge: Hook that determines the merge result between two
-  elements that is judged as equal. Default is
+  elements that are judged as equal. Default is
 ```javascript
 function(prev, next) {
   return [prev];  // abandon dulicate element
 }
 ```
+## Lisence
+MIT
