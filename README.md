@@ -1,4 +1,4 @@
-# array-merge
+# array-merges
 Merge arrays under strategy
 
 ## Example
